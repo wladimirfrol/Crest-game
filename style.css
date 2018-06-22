@@ -1,0 +1,72 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+span {
+	margin: 15px;
+}
+
+.game {
+	margin: 0 auto;
+	width: 500px;
+	height: 500px;
+	display: flex;
+	
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.move {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.desk {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 400px;
+	height: 400px;
+}
+
+.field.crest {
+	background-image: url('crest.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.field.zero {
+	background-image: url('zero.png');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.field {
+	width: 32%;
+	height: 33%;
+	background-color: #C0C1BC;
+	margin: 1px;
+}
+
+.field:hover {
+	cursor: pointer;
+	background-color: #A8A9A4;
+}
+
+.win {
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	height: 30px;
+	width: 85px;
+	font-size: 20px;
+	margin-top: 20px; 
+}
+
